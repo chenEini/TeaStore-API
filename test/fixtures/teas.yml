@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  teaType: one
+  name: MyString
+  price: 9.99
+  caffeineLevel: 1
+  description: MyText
+  image: MyString
+
+two:
+  teaType: two
+  name: MyString
+  price: 9.99
+  caffeineLevel: 1
+  description: MyText
+  image: MyString
