@@ -7,6 +7,14 @@ GIT
       activemodel (>= 4.1, < 6)
       jsonapi (~> 0.1.1.beta2)
 
+GIT
+  remote: git://github.com/rroblak/seed_dump.git
+  revision: eb9b812c7fbbc5411e1449cd5b280b927da3af80
+  specs:
+    seed_dump (3.2.4)
+      activerecord (>= 4)
+      activesupport (>= 4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -126,6 +134,7 @@ DEPENDENCIES
   byebug
   puma (~> 3.0)
   rails (~> 5.0.0, >= 5.0.0.1)
+  seed_dump!
   sqlite3
   tzinfo-data
 
